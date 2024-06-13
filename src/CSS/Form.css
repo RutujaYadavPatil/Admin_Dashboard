@@ -1,0 +1,46 @@
+/* styles.css or your preferred CSS file */
+.small-form {
+    padding: 20px;
+    font-size: 16px;
+  }
+  
+  /* Container styles */
+  .small-form {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Field styles */
+  .small-form .MuiTextField-root {
+    margin: 8px 0;
+  }
+  
+  /* Button styles */
+  .small-form .MuiButton-containedSecondary {
+    background-color: #ff5722;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .small-form .MuiButton-containedSecondary:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Error message styles */
+  .small-form .MuiFormHelperText-root {
+    color: #ff5722;
+  }
+  
+  /* Adjust spacing for smaller screens */
+  @media (max-width: 600px) {
+    .small-form .MuiGrid-item {
+      grid-column: span 4;
+    }
+  }
+  
